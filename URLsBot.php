@@ -32,19 +32,19 @@ $bitly_apiKey = 'R_012a06f8fb594ce09576acfc5dec70e2';
 $url_raccourcie = bitly($parametre,$bitly_login,$bitly_api_key);
 echo "Bot raccourcisseur d'url copyright Taolano :joy: \n";
 echo "URL Raccourcie :" , $url_raccourcie ;
-echo "Le code de la commande <https://docs.google.com/document/d/1BrRzuu1bAHt43QieJzPgPq3bGxsk-3pmZ2aUTssyr0Q/edit?usp=sharing| est ici !>";
+echo "Le code de la commande <https://github.com/Taolanoz/Slack-URLs-Bot/blob/master/URLsBot.php| est ici !>";
 } else {
 $url2_raccourcie = bitly($parametre,$bitly_login,$bitly_api_key);
 echo "Bot raccourcisseur d'url copyright Taolano :joy: \n";
 echo "URL Raccourcie :" , $url_raccourcie  ;
-echo "Le code de la commande <https://docs.google.com/document/d/1BrRzuu1bAHt43QieJzPgPq3bGxsk-3pmZ2aUTssyr0Q/edit?usp=sharing| est ici !>";
+echo "Le code de la commande <https://github.com/Taolanoz/Slack-URLs-Bot/blob/master/URLsBot.php| est ici !>";
 if($parametre == ""){
 echo "Bot raccourcisseur d'url copyright Taolano (ou pas) :joy: \n";
 echo "Entrez le lien pour *raccourcir* a la suite de /url ! \n" ;
 if($url_raccourcie == "INVALID_URI"){
 echo "Bot raccourcisseur d'url copyright Taolano :joy: \n";
 echo "Mauvaise URL" ;
-echo "Le code de la commande <https://docs.google.com/document/d/1BrRzuu1bAHt43QieJzPgPq3bGxsk-3pmZ2aUTssyr0Q/edit?usp=sharing| est ici !>";
+echo "Le code de la commande <https://github.com/Taolanoz/Slack-URLs-Bot/blob/master/URLsBot.php| est ici !>";
 }
 } 
 }
